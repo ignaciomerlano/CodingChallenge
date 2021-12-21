@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Traducciones>
+	<!-- ////  Formas  ////-->
+	
+		<Traduccion>
+			<Key>Cuadrado</Key>
+			<Plural>0</Plural>
+			<Castellano plural="0">Cuadrado</Castellano>
+			<Castellano plural="1">Cuadrados</Castellano>
+			<Ingles plural="0">Square</Ingles>
+			<Ingles plural="1">Squares</Ingles>
+			<Frances plural="0">Carré</Frances>
+			<Frances plural="1">Carrés</Frances>
+		</Traduccion>
+		<Traduccion>
+			<Key>Circulo</Key>
+			<Castellano plural="0">Círculo</Castellano>
+			<Castellano plural="1">Círculos</Castellano>
+			<Ingles plural="0">Circle</Ingles>
+			<Ingles plural="1">Circles</Ingles>
+			<Frances plural="0">Cercle</Frances>
+			<Frances plural="1">Cercles</Frances>
+		</Traduccion>
+		<Traduccion>
+			<Key>TrianguloEquilatero</Key>
+			<Castellano plural="0">Triángulo</Castellano>
+			<Castellano plural="1">Triángulos</Castellano>
+			<Ingles plural="0">Triangle</Ingles>
+			<Ingles plural="1">Triangles</Ingles>
+			<Frances plural="0">Triangle</Frances>
+			<Frances plural="1">Triangles</Frances>
+		</Traduccion>
+		<Traduccion>
+			<Key>Rectangulo</Key>
+			<Castellano plural="0">Rectangulo</Castellano>
+			<Castellano plural="1">Rectangulos</Castellano>
+			<Ingles plural="0">Rectangle</Ingles>
+			<Ingles plural="1">Rectangles</Ingles>
+			<Frances plural="0">Rectangle</Frances>
+			<Frances plural="1">Rectangles</Frances>
+		</Traduccion>
+		<Traduccion>
+			<Key>Trapecio</Key>
+			<Castellano plural="0">Trapecio</Castellano>
+			<Castellano plural="1">Trapecios</Castellano>
+			<Ingles plural="0">Trapeze</Ingles>
+			<Ingles plural="1">Trapezoids</Ingles>
+			<Frances plural="0">Trapèze</Frances>
+			<Frances plural="1">Trapèzes</Frances>
+		</Traduccion>
+
+	<!--////  Fin Formas  ////-->
+
+	<!--////  Palabras para Reportes  ////-->
+	
+		<Traduccion>
+			<Key>ListaVacia</Key>
+			<Castellano plural="0">Lista vacía de formas!</Castellano>
+			<Ingles plural="0">Empty list of shapes!</Ingles>
+			<Frances plural="0">Liste vide de formes!</Frances>
+		</Traduccion>
+		<Traduccion>
+			<Key>Encabezado</Key>
+			<Castellano plural="0">Reporte de Formas</Castellano>
+			<Ingles plural="0">Shapes report</Ingles>
+			<Frances plural="0">Rapport de formulaires</Frances>
+		</Traduccion>
+		<Traduccion>
+			<Key>Area</Key>
+			<Castellano plural="0">Area</Castellano>
+			<Ingles plural="0">Area</Ingles>
+			<Frances plural="0">Zone</Frances>
+		</Traduccion>
+		<Traduccion>
+			<Key>Perimetro</Key>
+			<Castellano plural="0">Perimetro</Castellano>
+			<Ingles plural="0">Perimeter</Ingles>
+			<Frances plural="0">Périmètre</Frances>
+		</Traduccion>
+		<Traduccion>
+			<Key>Total</Key>
+			<Castellano plural="0">Total</Castellano>
+			<Ingles plural="0">Total</Ingles>
+			<Frances plural="0">Le total</Frances>
+		</Traduccion>
+		<Traduccion>
+			<Key>Forma</Key>
+			<Castellano plural="0">Forma</Castellano>
+			<Castellano plural="1">Formas</Castellano>
+			<Ingles plural="0">Shape</Ingles>
+			<Ingles plural="1">Shapes</Ingles>
+			<Frances plural="0">Forme</Frances>
+			<Frances plural="1">Formes</Frances>
+		</Traduccion>
+
+	<!--////  Fin Palabras para Reportes  ////-->
+	
+</Traducciones>

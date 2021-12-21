@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TiposFormas>
+	<Tipo>
+		<Id>1</Id>
+		<Descripcion>Cuadrado</Descripcion>
+	</Tipo>
+	<Tipo>
+		<Id>2</Id>
+		<Descripcion>TrianguloEquilatero</Descripcion>
+	</Tipo>
+	<Tipo>
+		<Id>3</Id>
+		<Descripcion>Circulo</Descripcion>
+	</Tipo>
+	<Tipo>
+		<Id>4</Id>
+		<Descripcion>Trapecio</Descripcion>
+	</Tipo>
+	<Tipo>
+		<Id>5</Id>
+		<Descripcion>Rectangulo</Descripcion>
+	</Tipo>
+</TiposFormas>
