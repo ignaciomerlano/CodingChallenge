@@ -4,7 +4,6 @@ using CodingChallenge.Data.Classes;
 using CodingChallenge.Data.Classes.Formas;
 using CodingChallenge.Data.Interfaces;
 using CodingChallenge.Data.Repositorio;
-using Moq;
 using NUnit.Framework;
 
 namespace CodingChallenge.Data.Tests
