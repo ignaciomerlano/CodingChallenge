@@ -35,17 +35,17 @@ La resolución es libre y cómo encarar el problema queda en el criterio de quie
 
 ### Mi interpretacion del problema:
 
-**¡¡Para las formas:!!**
+**Para las formas:**
 - Al observar que ibamos a utilizar varias formas geometricas y cada una de ellas necesita atributos diferentes tal como alto, ancho, etc., decidí crear una clase por cada una de ellas.  
 - Como cada forma debe respetar ciertas pautas, es decir, metodos y atributos, decidí implementar una interface 'IFormaGeometrica' para que todas las formas la implementen, obligando un mismo comportamiento en ellas.
-- Gracias a la interface, el metodo que genera el reporte quedó totalemente abstraído de que forma le llega, lo cual es muy bueno para cuando tengamos que agregar nuevas formas sin la necesidad de modificar el metodo del reporte.  
+- Gracias a la interface, el metodo que genera el reporte quedó totalmente abstraído de que forma le llega, lo cual es muy bueno para cuando tengamos que agregar nuevas formas sin la necesidad de modificar el metodo del reporte.  
 
-**¡¡Para las traducciones:!!**
+**Para las traducciones:**
 - En un principio lo encaré con clases, pero luego al darme cuenta que por cada forma iba a necesitar traducciones diferentes, era muy complejo el mantenimiento cuando se agregaran nuevas formas o idiomas. 
 - Decidí implementar un archivo XML para almacenar las traducciones.
 - Creé una clase repositorio (RepositorioTraducciones) con una interface para abstraer a la clase del reporte (FormaGeometrica) con el acceso a datos.
 
-**¡¡Otras aclaraciones:!!**
+**Otras aclaraciones:**
 - Convertí el metodo "Imprimir" de estatico a no estatico, ya que la clase FormaGeometrica ahora recibe en el constructor la instancia del repositorio y el metodo Imprimir consume ese repo.
 - Creé una clase "Traduccion" para manejar los datos al momento de obtener las traducciones con el repo. 
 - Agregué 2 nuevas figuras, Rectangulo y Trapecio.
