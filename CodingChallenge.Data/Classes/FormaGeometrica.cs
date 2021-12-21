@@ -70,14 +70,14 @@ namespace CodingChallenge.Data.Classes
                 string linea = @"{0} {1} | " + traducciones.Where(x => x.Key == "Area").FirstOrDefault().Texto + " {2} | " + traducciones.Where(x => x.Key == "Perimetro").FirstOrDefault().Texto + " {3} <br/>";
                 foreach (var grupo in formasAgrupadas)
                 {
-                    sb.AppendFormat(linea, grupo.Value.Cantidad, traducciones.Where(x => x.Key == grupo.Value.Tipoforma && x.Plural == (grupo.Value.Cantidad > 1)).FirstOrDefault().Texto, grupo.Value.Area.ToString("#.##"), grupo.Value.Perimetro.ToString("#.##"));
+                    sb.AppendFormat(linea, grupo.Value.Cantidad, traducciones.Where(x => x.Key == grupo.Value.Tipoforma && x.Plural == (grupo.Value.Cantidad > 1)).FirstOrDefault().Texto, grupo.Value.Area.ToString("#.##").Replace(".", ","), grupo.Value.Perimetro.ToString("#.##").Replace(".", ","));
                 }
 
                 // FOOTER
                 sb.Append($"{traducciones.Where(x => x.Key == "Total").FirstOrDefault().Texto.ToUpper()}:<br/>");
                 sb.Append($"{formas.Count()} {traducciones.Where(x => x.Key == "Forma" && x.Plural == (formas.Count() > 1)).FirstOrDefault().Texto.ToLower()} ");
-                sb.Append($"{traducciones.Where(x => x.Key == "Perimetro").FirstOrDefault().Texto} {formas.Sum(x => x.Perimetro()).ToString("#.##")} ");
-                sb.Append($"{traducciones.Where(x => x.Key == "Area").FirstOrDefault().Texto} {formas.Sum(x => x.Area()).ToString("#.##")}");
+                sb.Append($"{traducciones.Where(x => x.Key == "Perimetro").FirstOrDefault().Texto} {formas.Sum(x => x.Perimetro()).ToString("#.##").Replace(".", ",")} ");
+                sb.Append($"{traducciones.Where(x => x.Key == "Area").FirstOrDefault().Texto} {formas.Sum(x => x.Area()).ToString("#.##").Replace(".", ",")}");
             }
 
             return sb.ToString();
